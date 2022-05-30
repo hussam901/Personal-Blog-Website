@@ -1,0 +1,44 @@
+/* ----main blog--- */
+.blog-grid {
+    margin-left: 3em;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
+    border: 1px solid #DEE2E6;
+    border-radius: 7px;
+}
+
+.image {
+    background-image: url(../images/what-is-html.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blog-content {
+    padding: 1em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.blog-date {
+    color: #999;
+}
+
+.blog-tittle {
+    margin: 0.2em 0 0.3em 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 0.5em;
+    background-color: #0D6EFD;
+    padding: 6px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.read-more:hover {
+    background-color: #023582;
+}
