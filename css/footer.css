@@ -1,0 +1,18 @@
+/* --------footer---- */
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.social-media {
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer p{
+    width: 30%;
+    text-align: center;
+}
