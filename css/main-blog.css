@@ -1,4 +1,8 @@
 /* ----main blog--- */
+.main-blog {
+    margin-bottom: 1em;
+}
+
 .blog-grid {
     margin-left: 3em;
     height: 100%;
@@ -9,17 +13,15 @@
     border-radius: 7px;
 }
 
-.image {
-    background-image: url(../images/what-is-html.webp);
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.img-1 {
+    background: #999 url("../images/what-is-html.webp") center no-repeat;
+    background-size: cover;
 }
 
 .blog-content {
     padding: 1em;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .blog-date {

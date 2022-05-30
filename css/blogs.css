@@ -1,0 +1,35 @@
+.blogs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:50% 50%;
+    margin-left: 2em;
+}
+
+.blog {
+    margin-bottom: 1em;
+}
+
+.blog .blog-grid{
+    margin-left: 1em;
+    grid-template-rows: 40% 60%;
+}
+
+.img-2 {
+    background: #999 url("../images/What-is-CSS3.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.img-3 {
+    background: #999 url("../images/maxresdefault.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.img-4 {
+    background: #999 url("../images/screen-react-devs.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.img-5 {
+    background: #999 url("../images/qqq.jpg") center no-repeat;
+    background-size: cover;
+}
