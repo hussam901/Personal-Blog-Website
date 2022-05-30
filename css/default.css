@@ -1,7 +1,10 @@
+/* ----------defult---------- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,500&family=Roboto:wght@700&display=swap');
 
 * {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -21,7 +24,7 @@ ul {
 
 .grid-container{
     display: grid;
-    grid-template-rows: 2fr 4fr 6fr 8fr 3fr ;
+    grid-template-rows: 1fr 6fr 8fr 10fr 2fr ;
     grid-template-columns: 4fr 2fr;
     grid-template-areas: 
     "nav nav nav nav"
@@ -29,13 +32,6 @@ ul {
     "mb mb ad ad"
     "bl bl ad ad"
     "ft ft ft ft";
-}
-
-.main-nav {
-    grid-area: nav;
-    flex-direction: row;
-    background-color: black;
-    color: aliceblue;
 }
 
 .main-header{
@@ -56,4 +52,8 @@ ul {
 
 .footer {
     grid-area: ft;
+}
+
+.main-nav {
+    grid-area: nav;
 }

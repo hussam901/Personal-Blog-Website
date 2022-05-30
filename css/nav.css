@@ -1,0 +1,29 @@
+/* -------navbar--------- */
+.main-nav {
+    grid-area: nav;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #212529;
+    color: #f0f8ff;
+}
+
+.nav-menu .container {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item {
+    padding: 1em;
+}
+
+.nav-item a {
+    color: gray;
+}
+
+.nav-item a:hover{
+    color: #eee;
+}
+
+.nav-item .active{
+    color: #fff;
+}
