@@ -1,0 +1,30 @@
+.subscribe-page-grid {
+    grid-template-rows: 1fr 6fr 8fr 2fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "hd hd hd hd"
+    "fm fm fm fm"
+    "ft ft ft ft";
+}
+
+#form-subscribe {
+    grid-area: fm;
+    justify-content: space-around;
+    margin-left: 2em;
+    padding: 1em;
+    align-items: flex-start;
+}
+
+#form-subscribe input {
+    width: 60%;
+    padding: 1em;
+    margin: 0.3em;
+}
+
+#form-subscribe input[type="submit"] {
+    width: 40%;
+    align-self: center;
+    font-weight: 700;
+    font-size: larger;
+}
