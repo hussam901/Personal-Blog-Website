@@ -1,0 +1,19 @@
+.about-page-grid {
+    grid-template-rows: 1fr 6fr 8fr 2fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "hd hd hd hd"
+    "ab ab ab ab"
+    "ft ft ft ft";
+}
+
+.about-text {
+    grid-area: ab;
+    margin: 2em;
+}
+.about-text p{
+    margin: 1em;
+    font-size: larger;
+    line-height: 1.4em;
+}
