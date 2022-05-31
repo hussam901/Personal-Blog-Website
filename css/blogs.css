@@ -15,7 +15,7 @@
 }
 
 .img-2 {
-    background: #999 url("../images/What-is-CSS3.jpg") center no-repeat;
+    background: #999 url("../images/What-is-CSS3.jpg") top center no-repeat;
     background-size: cover;
 }
 
