@@ -1,10 +1,11 @@
 /* ----main blog--- */
 .main-blog {
     margin-bottom: 1em;
+    margin-left: 3em;
 }
 
 .blog-grid {
-    margin-left: 3em;
+    
     height: 100%;
     display: grid;
     grid-template-columns: 100%;

@@ -29,6 +29,7 @@
 
 .box-content input {
     box-sizing: border-box;
+    margin-left: 7%;
     width: 60%;
     height: 100%;
 }

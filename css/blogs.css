@@ -20,16 +20,16 @@
 }
 
 .img-3 {
-    background: #999 url("../images/maxresdefault.jpg") center no-repeat;
+    background: #999 url("../images/maxresdefault.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .img-4 {
-    background: #999 url("../images/screen-react-devs.jpg") center no-repeat;
+    background: #999 url("../images/screen-react-devs.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .img-5 {
-    background: #999 url("../images/qqq.jpg") center no-repeat;
+    background: #999 url("../images/qqq.jpg") center center no-repeat;
     background-size: cover;
 }
