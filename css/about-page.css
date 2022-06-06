@@ -12,6 +12,15 @@
     grid-area: ab;
     margin: 2em;
 }
+
+.text-1 {
+    text-decoration: underline;
+}
+
+.text-2 {
+    font-style: italic;
+}
+
 .about-text p{
     margin: 1em;
     font-size: larger;
