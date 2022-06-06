@@ -80,3 +80,20 @@
     }
 
 }
+
+@media (max-width : 576px ){
+    /* nav-bar */
+    .main-nav {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    /* footer */
+    .social-media {
+        width: 70%;
+    }
+
+    .footer p{
+        width: 80%;
+    }
+}
